@@ -1,0 +1,30 @@
+.food_item{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #00000015;
+}
+.add_first{
+    width: 35px ;
+    height: 35px;
+}
+.food_item_img_container{
+    position: relative;
+}
+.food_item_img_container .food-item-counter,
+.add_first{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 0 10px #00000098;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    background-color: aliceblue;
+    gap: 5px;
+    border-radius: 50px;
+}
+.food_item_img_container .food-item-counter img{
+    width: 30px  ;
+    height: 30px ;
+}

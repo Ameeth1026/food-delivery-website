@@ -1,0 +1,51 @@
+.placeorder{
+    display: grid;
+    gap: 20px;
+    margin-top: 60px;
+    grid-template-columns: 1fr .7fr;
+}
+.placeorder  h2{
+    color:#137971;
+}
+.placeorder .placeorder_left .user_input_field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.placeorder_left .user{
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #137971;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #137971;
+    background-color: #1379714b;
+    padding: 0 8px;
+    margin: 5px 0;
+}
+.placeorder_left .user input{
+    height: 100%;
+    border: transparent;
+    outline: transparent;
+    letter-spacing: 1.3px;
+    color: #137971;
+    background-color: transparent;
+    width: 100%;
+}
+.placeorder .placeorder_right button{
+    height: 40px ;
+    width: 70%;
+    background-color: #137971;
+    color: #fff;
+    border: transparent;
+    outline: transparent;
+    margin: 50px 0 0 40px;
+}
+
+@media (max-width:750px) {
+    .placeorder{
+        grid-template-columns: 1fr;
+    }
+}

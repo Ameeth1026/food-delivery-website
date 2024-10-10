@@ -1,0 +1,84 @@
+.navbar{
+    padding: 20px 0;
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 150px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    gap: 20px;
+}
+.navbar-menu a{
+    color: #2d2d2d;
+    text-decoration: none;
+}
+.navbar-right{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-right img{
+    width: 20px;
+    cursor: pointer;
+    height: 20px;
+}
+.navbar-right button{
+    background-color: #137970;
+    color: #fff;
+    border: 1px solid #eee;
+    cursor: pointer;
+    transition: .4s all ease;
+    height: 44px;
+    width: 170px;
+    border-radius: 50px;
+}
+.navbar-right button:hover{
+    background-color: transparent;
+    color: #137970;
+    border: 1px solid #137970;
+}
+.navbar .active{
+    color: #137970;
+    border-bottom: 2px solid #137970;
+}
+.navbar-search-icon{
+    position: relative;
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-height: 5px;
+    min-width: 5px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -4px;
+    right: -4px;
+}
+
+@media (max-width:900px){
+    .navbar{
+    padding: 15px 0;
+
+    }
+    .navbar .logo{
+        width:100px;
+    }
+    .navbar-menu{
+        display: none; 
+    }
+    .navbar-right button{
+        width:120px;
+        height:40px;
+    }
+    .navbar-right{
+        gap:10px;
+    }
+    .navbar-right img{
+        width:20px;
+    }
+}

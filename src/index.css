@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap');
+/* CSS Template */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+:root {
+    --cl1:#fff;
+}
+body::-webkit-scrollbar{
+width: 0;
+}
+/* Add your custom styles here */
+.app{
+    width: 85%;
+    margin: auto;
+}
+@media(max-width:900px){
+    .app{
+        width: 80%;
+    } 
+}
+@media (max-width:590px){
+    .app{
+        width: 90%;
+    }
+}
+@keyframes Fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
